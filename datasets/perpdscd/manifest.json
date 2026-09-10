@@ -1,0 +1,215 @@
+{
+  "schema_version": 1,
+  "name": "PERPDSCD",
+  "require_style_labels": true,
+  "columns": [
+    "Convo_id",
+    "Turn_id",
+    "Speaker",
+    "Utterance",
+    "Gender",
+    "Age",
+    "Persona",
+    "Issue",
+    "Physical disability",
+    "row_id",
+    "turn_index",
+    "split",
+    "persona_label",
+    "gender_age_label",
+    "politeness_label",
+    "empathy_label"
+  ],
+  "split_seed": 10,
+  "split_ratios": {
+    "train": 0.8,
+    "validation": 0.1,
+    "test": 0.1
+  },
+  "splits": {
+    "train": {
+      "conversations": 14420,
+      "utterances": 322427,
+      "doctor_responses": 160666,
+      "patient_utterances": 161761,
+      "min_turns": 10,
+      "max_turns": 32,
+      "mean_turns": 22.35970873786408,
+      "labels": {
+        "persona_label": {
+          "0": 16915,
+          "1": 16762,
+          "10": 16889,
+          "11": 17031,
+          "12": 16874,
+          "13": 16855,
+          "14": 17761,
+          "15": 17324,
+          "16": 17238,
+          "17": 17212,
+          "18": 17669,
+          "2": 16707,
+          "3": 16896,
+          "4": 16346,
+          "5": 16833,
+          "6": 16483,
+          "7": 16750,
+          "8": 17002,
+          "9": 16880
+        },
+        "gender_age_label": {
+          "0": 55655,
+          "1": 54340,
+          "2": 54989,
+          "3": 54236,
+          "4": 52193,
+          "5": 51014
+        },
+        "politeness_label": {
+          "0": 1,
+          "1": 128121,
+          "2": 194305
+        },
+        "empathy_label": {
+          "0": 1,
+          "1": 234706,
+          "2": 87720
+        }
+      }
+    },
+    "validation": {
+      "conversations": 1803,
+      "utterances": 40350,
+      "doctor_responses": 20103,
+      "patient_utterances": 20247,
+      "min_turns": 10,
+      "max_turns": 30,
+      "mean_turns": 22.37936772046589,
+      "labels": {
+        "persona_label": {
+          "0": 2257,
+          "1": 2004,
+          "10": 2101,
+          "11": 1883,
+          "12": 2087,
+          "13": 2356,
+          "14": 1862,
+          "15": 2331,
+          "16": 2281,
+          "17": 2155,
+          "18": 2210,
+          "2": 2487,
+          "3": 1687,
+          "4": 2479,
+          "5": 2097,
+          "6": 2226,
+          "7": 2250,
+          "8": 1736,
+          "9": 1861
+        },
+        "gender_age_label": {
+          "0": 6280,
+          "1": 7604,
+          "2": 6807,
+          "3": 6889,
+          "4": 6345,
+          "5": 6425
+        },
+        "politeness_label": {
+          "0": 1,
+          "1": 16098,
+          "2": 24251
+        },
+        "empathy_label": {
+          "1": 29396,
+          "2": 10954
+        }
+      }
+    },
+    "test": {
+      "conversations": 1803,
+      "utterances": 40308,
+      "doctor_responses": 20073,
+      "patient_utterances": 20235,
+      "min_turns": 10,
+      "max_turns": 30,
+      "mean_turns": 22.356073211314477,
+      "labels": {
+        "persona_label": {
+          "0": 2212,
+          "1": 2305,
+          "10": 2021,
+          "11": 2459,
+          "12": 2178,
+          "13": 1690,
+          "14": 1702,
+          "15": 2106,
+          "16": 2245,
+          "17": 2321,
+          "18": 1627,
+          "2": 2035,
+          "3": 2638,
+          "4": 2180,
+          "5": 1915,
+          "6": 2170,
+          "7": 1888,
+          "8": 2419,
+          "9": 2197
+        },
+        "gender_age_label": {
+          "0": 6539,
+          "1": 6517,
+          "2": 7073,
+          "3": 7096,
+          "4": 6721,
+          "5": 6362
+        },
+        "politeness_label": {
+          "1": 15950,
+          "2": 24358
+        },
+        "empathy_label": {
+          "1": 29323,
+          "2": 10985
+        }
+      }
+    }
+  },
+  "files": [
+    {
+      "path": "labels.json",
+      "bytes": 2725,
+      "sha256": "7b126debeb4317197596f851e5b03c2593b46c5d1b7418996f4c90d632d39d3f"
+    },
+    {
+      "path": "splits.json",
+      "bytes": 223290,
+      "sha256": "fb29f3f65c97f67f6043e80cf2d44d23e7d67abe99b6587c93128fefa9ed7881"
+    },
+    {
+      "path": "test-00000.csv",
+      "bytes": 14184901,
+      "sha256": "e82b79885af682e63b93c15a37a35068ce7d5c61d1ed24e3369e0eeef46c9919"
+    },
+    {
+      "path": "train-00000.csv",
+      "bytes": 41932936,
+      "sha256": "8a2d5513306a4c270755b84b013088a455c594903f95219e8ff722ba6728f928"
+    },
+    {
+      "path": "train-00001.csv",
+      "bytes": 41938518,
+      "sha256": "9b24040ffb6e1af226b00d693177ef230540e410b34addd78ae12d7f9484000e"
+    },
+    {
+      "path": "train-00002.csv",
+      "bytes": 29969502,
+      "sha256": "954e32808a2500629fc8897d39205853ee7f5726b544c1a964474639a5ca5c49"
+    },
+    {
+      "path": "validation-00000.csv",
+      "bytes": 14436646,
+      "sha256": "7ab8e9ac6f43a6f061232a9a208c8b21fa8be5081de23d094088afa01c101906"
+    }
+  ]
+}

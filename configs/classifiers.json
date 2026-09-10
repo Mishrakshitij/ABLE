@@ -1,0 +1,6 @@
+{
+  "persona": "checkpoints/persona",
+  "gender_age": "checkpoints/gender_age",
+  "politeness": "checkpoints/politeness",
+  "empathy": "checkpoints/empathy"
+}

@@ -1,0 +1,173 @@
+{
+  "persona_label": {
+    "0": {
+      "O": "high",
+      "C": "high",
+      "E": "high",
+      "A": "high",
+      "N": "low"
+    },
+    "1": {
+      "O": "low",
+      "C": "high",
+      "E": "high",
+      "A": "high",
+      "N": "low"
+    },
+    "2": {
+      "O": "high",
+      "C": "low",
+      "E": "high",
+      "A": "high",
+      "N": "low"
+    },
+    "3": {
+      "O": "low",
+      "C": "low",
+      "E": "high",
+      "A": "high",
+      "N": "low"
+    },
+    "4": {
+      "O": "high",
+      "C": "high",
+      "E": "low",
+      "A": "high",
+      "N": "low"
+    },
+    "5": {
+      "O": "low",
+      "C": "high",
+      "E": "low",
+      "A": "high",
+      "N": "low"
+    },
+    "6": {
+      "O": "high",
+      "C": "low",
+      "E": "low",
+      "A": "high",
+      "N": "low"
+    },
+    "7": {
+      "O": "low",
+      "C": "low",
+      "E": "low",
+      "A": "high",
+      "N": "low"
+    },
+    "8": {
+      "O": "high",
+      "C": "high",
+      "E": "high",
+      "A": "low",
+      "N": "low"
+    },
+    "9": {
+      "O": "low",
+      "C": "high",
+      "E": "high",
+      "A": "low",
+      "N": "low"
+    },
+    "10": {
+      "O": "high",
+      "C": "low",
+      "E": "high",
+      "A": "low",
+      "N": "low"
+    },
+    "11": {
+      "O": "low",
+      "C": "low",
+      "E": "high",
+      "A": "low",
+      "N": "low"
+    },
+    "12": {
+      "O": "low",
+      "C": "low",
+      "E": "low",
+      "A": "low",
+      "N": "low"
+    },
+    "13": {
+      "O": "high",
+      "C": "high",
+      "E": "low",
+      "A": "low",
+      "N": "low"
+    },
+    "14": {
+      "O": "low",
+      "C": "high",
+      "E": "low",
+      "A": "low",
+      "N": "low"
+    },
+    "15": {
+      "O": "high",
+      "C": "high",
+      "E": "high",
+      "A": "high",
+      "N": "high"
+    },
+    "16": {
+      "O": "low",
+      "C": "low",
+      "E": "high",
+      "A": "high",
+      "N": "high"
+    },
+    "17": {
+      "O": "low",
+      "C": "high",
+      "E": "low",
+      "A": "high",
+      "N": "high"
+    },
+    "18": {
+      "O": "low",
+      "C": "low",
+      "E": "low",
+      "A": "high",
+      "N": "high"
+    }
+  },
+  "gender_age_label": {
+    "0": {
+      "gender": "Male",
+      "age": "Younger"
+    },
+    "1": {
+      "gender": "Male",
+      "age": "Middle Aged"
+    },
+    "2": {
+      "gender": "Male",
+      "age": "Older"
+    },
+    "3": {
+      "gender": "Female",
+      "age": "Younger"
+    },
+    "4": {
+      "gender": "Female",
+      "age": "Middle Aged"
+    },
+    "5": {
+      "gender": "Female",
+      "age": "Older"
+    }
+  },
+  "politeness_label": {
+    "0": "impolite",
+    "1": "neutral",
+    "2": "polite"
+  },
+  "empathy_label": {
+    "0": "non_empathetic",
+    "1": "neutral",
+    "2": "empathetic"
+  }
+}

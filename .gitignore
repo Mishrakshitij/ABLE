@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+build/
+dist/
+.DS_Store
+/.local/
+/.agents/
+/.codex/
+/EMNLP - ABLE.zip
+/runs/
+/checkpoints/
+/outputs/
+/cache/
+*.safetensors
+*.pt
+*.ckpt*
+*.log
+.env
+.env.*

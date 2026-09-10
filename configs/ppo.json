@@ -1,0 +1,76 @@
+{
+  "data": {
+    "path": "datasets",
+    "train_split": "train",
+    "validation_split": "validation",
+    "max_examples": null,
+    "max_validation_examples": null
+  },
+  "model": {
+    "name": "microsoft/phi-2",
+    "device": "auto",
+    "dtype": "auto",
+    "lora": {
+      "r": 16,
+      "lora_alpha": 16,
+      "lora_dropout": 0.05,
+      "target_modules": [
+        "q_proj",
+        "k_proj",
+        "v_proj",
+        "dense"
+      ]
+    }
+  },
+  "training": {
+    "output_dir": "checkpoints/able-ppo",
+    "seed": 10,
+    "batch_size": 8,
+    "gradient_accumulation_steps": 1,
+    "learning_rate": 1e-05,
+    "epochs": 20,
+    "max_steps": 32000,
+    "max_length": 512,
+    "max_grad_norm": 1.0,
+    "gradient_checkpointing": false,
+    "logging_steps": 10
+  },
+  "ppo": {
+    "sft_checkpoint": "checkpoints/sft",
+    "clip_range": 0.2,
+    "value_clip_range": 0.2,
+    "value_coef": 0.5,
+    "entropy_coef": 0.0,
+    "kl_coef": 0.0,
+    "gamma": 0.95,
+    "gae_lambda": null,
+    "ppo_epochs": 4,
+    "rollout_batch_size": 640,
+    "max_new_tokens": 50,
+    "normalize_advantages": false
+  },
+  "rewards": {
+    "mode": "paper",
+    "alpha": 1.0,
+    "beta": 0.5,
+    "gamma": 0.5,
+    "weights": [
+      0.16666666666666666,
+      0.16666666666666666,
+      0.16666666666666666,
+      0.16666666666666666,
+      0.16666666666666666,
+      0.16666666666666666
+    ],
+    "classifiers": {
+      "persona": "checkpoints/persona",
+      "gender_age": "checkpoints/gender_age",
+      "politeness": "checkpoints/politeness",
+      "empathy": "checkpoints/empathy"
+    },
+    "bertscore_model": "roberta-large",
+    "device": "auto",
+    "max_length": 512,
+    "batch_size": 8
+  }
+}

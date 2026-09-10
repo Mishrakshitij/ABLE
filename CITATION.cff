@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use ABLE or PERPDSCD, please cite the EMNLP 2024 paper."
+title: "ABLE: Personalized Disability Support with Politeness and Empathy Integration"
+type: software
+version: 1.0.0
+authors:
+  - family-names: Mishra
+    given-names: Kshitij
+  - family-names: Burja
+    given-names: Manisha
+  - family-names: Ekbal
+    given-names: Asif
+repository-code: "https://github.com/Mishrakshitij/ABLE"
+url: "https://aclanthology.org/2024.emnlp-main.1252/"
+preferred-citation:
+  type: conference-paper
+  title: "ABLE: Personalized Disability Support with Politeness and Empathy Integration"
+  authors:
+    - family-names: Mishra
+      given-names: Kshitij
+    - family-names: Burja
+      given-names: Manisha
+    - family-names: Ekbal
+      given-names: Asif
+  year: 2024
+  collection-title: "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing"
+  start: 22445
+  end: 22470
+  doi: "10.18653/v1/2024.emnlp-main.1252"

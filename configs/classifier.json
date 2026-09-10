@@ -1,0 +1,26 @@
+{
+  "data": {
+    "path": "datasets",
+    "train_split": "train",
+    "validation_split": "validation",
+    "max_examples": null,
+    "max_validation_examples": null
+  },
+  "model": {
+    "name": "roberta-large",
+    "device": "auto"
+  },
+  "task": "politeness",
+  "training": {
+    "output_dir": "checkpoints/politeness",
+    "seed": 10,
+    "batch_size": 8,
+    "gradient_accumulation_steps": 1,
+    "learning_rate": 2e-05,
+    "epochs": 8,
+    "max_steps": null,
+    "max_length": 512,
+    "max_grad_norm": 1.0,
+    "logging_steps": 10
+  }
+}
